@@ -1,0 +1,15 @@
+{
+  "sourceCommit": "b43bed90f47fce914d8c1bca5c8ae86b00b1681e",
+  "deploymentBlock": 56133685,
+  "abiHashes": {
+    "Burner": "9f3da674030036ca07c881556cc3dcff00e4fa1bbcb817a7652da082446b605c",
+    "FirmVault": "2d184eb57ff9ce3e11c3438f43fa624f27cdb20c0f6a99fb3cd372565f6cae1b",
+    "GenesisSplitter": "7598135806443913d9aa63683b750f8104101199ee62fc1641b55ec4d7ecdc87",
+    "LaunchToken": "fc4fab013a5168c8b768eb9277ce85fdc9e5b2f94f8e2cd48f4dc0499e4c63d4",
+    "LpDesk": "6a50f69c427902274436c985c899f6235819b40e22757d65ad13d59ddd793fb6",
+    "LpGovernor": "4a78ba1965baf382c4fa82801ad3813ebdcc3de998bd1419331e332101cb5d19",
+    "PriceGuard": "efbb327b6cbb34c0e9c64ce89d54e1256ab242887352849582bc783ef4129e44",
+    "VenueV3": "d9b6dcb5ef9ebcb0ac7db66287bd69f860b99ef9d3b9ef91b48e3674287b5453",
+    "VenueV4": "9d5d52f81c08e0b585e45351f04d3607f4427f4eb69105806458716d8110bd5f"
+  }
+}

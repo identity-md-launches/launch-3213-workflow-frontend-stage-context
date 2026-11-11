@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-11-11T18:02:02.769Z",
+  "chainId": 8453,
+  "block": "56148733",
+  "verified": true,
+  "moduleReady": {
+    "Burner": true,
+    "LpGovernor": false,
+    "PriceGuard": false,
+    "VenueV3": false,
+    "VenueV4": false
+  },
+  "registered": false,
+  "bootstrapEnd": "0",
+  "positionCount": 0,
+  "proposalCount": 0,
+  "venues": [],
+  "tokenCount": 2,
+  "burner": "0x58FA670E7eED7fc9134f92E6fa681e98681A178b",
+  "lpGovernor": "0xbAf2e26d862814796077D561Bf53684D7e408c12",
+  "priceGuard": "0xBE2BB537196bfA00D1d0509cBEE2110B4b60C85D",
+  "warnings": [
+    "LpGovernor has not been deployed. Related actions are unavailable.",
+    "PriceGuard has not been deployed. Related actions are unavailable.",
+    "VenueV3 has not been deployed. Related actions are unavailable.",
+    "VenueV4 has not been deployed. Related actions are unavailable."
+  ]
+}

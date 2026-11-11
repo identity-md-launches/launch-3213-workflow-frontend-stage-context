@@ -1,0 +1,109 @@
+{
+  "passed": 24,
+  "checks": [
+    {
+      "name": "Subpath export loads without console or local-resource errors",
+      "passed": true
+    },
+    {
+      "name": "Disconnected controls are locked; no third-party scripts, fonts or frames",
+      "passed": true
+    },
+    {
+      "name": "390 first screen contains product, wallet and main trade control",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 320, 390, 760 and 1440 across all routes",
+      "passed": true
+    },
+    {
+      "name": "Wallet sheet names discovered wallets, traps focus and returns focus on Escape",
+      "passed": true
+    },
+    {
+      "name": "Connection rejection is recoverable",
+      "passed": true
+    },
+    {
+      "name": "Unknown chain invokes switch, add exact Base parameters, then switch",
+      "passed": true
+    },
+    {
+      "name": "Wrong-chain state locks transactions until Switch to Base succeeds",
+      "passed": true
+    },
+    {
+      "name": "Non-operator wallet sees no operator transaction controls",
+      "passed": true
+    },
+    {
+      "name": "Burn deposit blocks over-balance amounts before any wallet request",
+      "passed": true
+    },
+    {
+      "name": "Burn action simulates, reviews, signs mock transaction and refreshes balances",
+      "passed": true
+    },
+    {
+      "name": "Wallet transaction rejection unlocks the action",
+      "passed": true
+    },
+    {
+      "name": "Swap follows exact ERC20 approval, Permit2 permission and simulated execute",
+      "passed": true
+    },
+    {
+      "name": "Governance reads all proposal states; expired proposals have no Execute",
+      "passed": true
+    },
+    {
+      "name": "Staking separates approval and stake, and preserves max balance",
+      "passed": true
+    },
+    {
+      "name": "Operator controls, bootstrap gate and live venue updates",
+      "passed": true
+    },
+    {
+      "name": "Simulation revert shows a recoverable contract error without signing",
+      "passed": true
+    },
+    {
+      "name": "Operator top-up and buyback previews use basket bounds and minimum outputs",
+      "passed": true
+    },
+    {
+      "name": "One unreadable asset is isolated without locking the whole desk",
+      "passed": true
+    },
+    {
+      "name": "Automated accessibility scans on Home, Burn and LP Desk",
+      "passed": true
+    },
+    {
+      "name": "Long values, keyboard focus, reduced motion and 200% text enlargement",
+      "passed": true
+    },
+    {
+      "name": "Mobile connection sheet offers all wallet-browser links and Coinbase Smart Wallet",
+      "passed": true
+    },
+    {
+      "name": "RPC failure keeps the product and locked trade control on the first screen",
+      "passed": true
+    },
+    {
+      "name": "Live production snapshot through configured public RPC; no live signing",
+      "passed": true
+    }
+  ],
+  "scriptErrors": [],
+  "localResourceFailures": [],
+  "unexpectedRequests": [],
+  "limitations": [
+    "Wallet/RPC transaction flows use isolated fixtures. No real transaction was signed or broadcast.",
+    "Live chain currently has undeployed modules and is unregistered.",
+    "Native device wallets, Coinbase passkey onboarding, a screen reader and native 200% browser zoom were not tested by this suite."
+  ]
+}

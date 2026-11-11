@@ -1,0 +1,11 @@
+{
+  "files": 105,
+  "rawContentBytes": 3854506,
+  "budgetBytes": 8388608,
+  "remainingBytes": 4534102,
+  "allPathsAllowed": true,
+  "noDependenciesCachesArchives": true,
+  "localCommitCreated": false,
+  "reason": "Git metadata is read-only; git add could not create .git/index.lock.",
+  "measurement": "Untracked non-ignored files plus tracked modifications, before this report and documentation note."
+}

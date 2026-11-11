@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "remoteWasReadOnly": true,
+  "chainId": 8453,
+  "forkBlock": "56154850",
+  "moduleCodeHashesVerified": true,
+  "modulesDeployedLocally": 4,
+  "venuesBefore": 6,
+  "venuesAfter": 7,
+  "proposalId": "0",
+  "proposalState": 6,
+  "browserReadLiveVenueCount": 7,
+  "operatorPickerMatchesEntireLiveList": true,
+  "scriptErrors": [],
+  "limitations": [
+    "All transactions occurred only on the temporary local Anvil fork. No Base transaction was signed or broadcast.",
+    "The added manager is a metadata-only test fixture; liquidity operations on it are outside this test."
+  ]
+}

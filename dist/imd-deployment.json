@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "launchId": "92e0d9bf-b524-4d34-b10a-e7648a826978",
+  "chainId": 8453,
+  "sourceCommit": "b43bed90f47fce914d8c1bca5c8ae86b00b1681e",
+  "attestationHash": "4a17de00b27699c9775ac5acf9e6c7f8740afd8c709624d89ee72144c7f15022",
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "address": "0xdd35ca163071cc217952670b501a85e14e03ec16",
+      "abiHash": "fc4fab013a5168c8b768eb9277ce85fdc9e5b2f94f8e2cd48f4dc0499e4c63d4",
+      "abiPath": "abi/LaunchToken.json"
+    },
+    {
+      "name": "LpDesk",
+      "address": "0xa104010518cc6cfb9296ebc05233435e58589803",
+      "abiHash": "6a50f69c427902274436c985c899f6235819b40e22757d65ad13d59ddd793fb6",
+      "abiPath": "abi/LpDesk.json"
+    },
+    {
+      "name": "FirmVault",
+      "address": "0xd50cf8c1913e7d68aa6fd26a1721dcefd0bd8ad2",
+      "abiHash": "2d184eb57ff9ce3e11c3438f43fa624f27cdb20c0f6a99fb3cd372565f6cae1b",
+      "abiPath": "abi/FirmVault.json"
+    },
+    {
+      "name": "GenesisSplitter",
+      "address": "0xf907c6d66f35d47b11636a8f4c1664fc19233b52",
+      "abiHash": "7598135806443913d9aa63683b750f8104101199ee62fc1641b55ec4d7ecdc87",
+      "abiPath": "abi/GenesisSplitter.json"
+    }
+  ],
+  "assets": [
+    {
+      "path": "abi/Burner.json",
+      "sha256": "3aef1149f815a9bbd3efe15e85e4b0cacd23de91fe37560fbdb9543ae85bfbe3"
+    },
+    {
+      "path": "abi/FirmVault.json",
+      "sha256": "315a5b0b506fab902eb292f5ac95e47118a8ffb475b007385a48940e0cf2e609"
+    },
+    {
+      "path": "abi/GenesisSplitter.json",
+      "sha256": "203f94080f248b453d5e84fc8fa2ada97061c3410137ad761002464470a781df"
+    },
+    {
+      "path": "abi/LaunchToken.json",
+      "sha256": "05bb3529f953f22a2ca61d7f568a0c604deb50cf9b7f2ee423efb6d8eb7a2b56"
+    },
+    {
+      "path": "abi/LpDesk.json",
+      "sha256": "e6c952ddcb38fb4c479c9d30ef93b5cbf7881fff2088c688dde7e20bde9c5357"
+    },
+    {
+      "path": "abi/LpGovernor.json",
+      "sha256": "6ee82cccc3c011c06fddff31e0022d080c8667a3b4c57d3c769a259eb50d992b"
+    },
+    {
+      "path": "abi/PriceGuard.json",
+      "sha256": "018ff3928a334dedcbf31827cedc1706f1d81b30ab3b1f12038e7ee5d82334c1"
+    },
+    {
+      "path": "abi/VenueV3.json",
+      "sha256": "62721e6b4a29f53416467f488553593e7a26b04cdcda5955e4e729d46a7c5af9"
+    },
+    {
+      "path": "abi/VenueV4.json",
+      "sha256": "8c4b9782e3f0bb9c3738f66babc47250abfcad78e5f9ca7ffce076ce78451a1a"
+    },
+    {
+      "path": "assets/ccip-DyL-W4VA.js",
+      "sha256": "62736ef3bda914c93fb9a9e567cc66eaaa3716093558eefa1e3e021c9e517495"
+    },
+    {
+      "path": "assets/dist-D-Xlis-l.js",
+      "sha256": "a5f8dfb0179475ba8995ca53f6ce96a89f7cafd4d5fa381e255e9b07fb56291b"
+    },
+    {
+      "path": "assets/index-DHn0a5lt.css",
+      "sha256": "7a335ce76e208575df5163b8163f7e81142ffc709720f5f3717401cd8572c5c5"
+    },
+    {
+      "path": "assets/index-M8CsztDX.js",
+      "sha256": "97660f91cfed1d77f5af020311c9ecdc102d820dda9a83e5c285d00b9de88a41"
+    },
+    {
+      "path": "favicon.png",
+      "sha256": "f29e6f8a33f33a28e9abe5664f952fa58fe76c988a35f101c3dbb1189ce80e29"
+    },
+    {
+      "path": "index.html",
+      "sha256": "d37ad37194bc2b7bf3a6a2f5662b25177259d61cf792e157f43ce63efcb56574"
+    },
+    {
+      "path": "logo.png",
+      "sha256": "75c5041c5e5713b6ac27fd88bfdafd0bb941f611a4b614b78ef5c1bee5719fea"
+    },
+    {
+      "path": "provenance.json",
+      "sha256": "667521e1fef04886fe6c70cb6f9bc44b0e53cd305397bb7f805d46f7a9b01e8d"
+    },
+    {
+      "path": "social.svg",
+      "sha256": "33929063f48495d49bf589579f809d98fdb434dfa8f4b41f7f6741b457c128a7"
+    },
+    {
+      "path": "wallets/browser.svg",
+      "sha256": "67a0907367b175ba4bd6c3550a93958da837ee352254b6e415c1a6ddb144bd7b"
+    },
+    {
+      "path": "wallets/coinbase.svg",
+      "sha256": "ab2d64bdbb8f4ffdcbfdb04167f622d4ac64bbcade1a1bc937761478f1efa62f"
+    },
+    {
+      "path": "wallets/metamask.svg",
+      "sha256": "892c7dfab8c4ca5682878dda3f42f55a75195d7d365e4adb0832845f3a0a2135"
+    },
+    {
+      "path": "wallets/phantom.svg",
+      "sha256": "f841f8112e131259a2e5123177950099c79487e61e77971f4e193e6c374419eb"
+    },
+    {
+      "path": "wallets/rabby.svg",
+      "sha256": "dcae4de88ebfa10cffa1fe28df13d7c8c0b40736ef2b704f1f2fc348e777e443"
+    }
+  ],
+  "poolKey": {
+    "fee": 12500,
+    "hooks": "0xb369c3e1ff33d064d493782d023e476938e52000",
+    "currency0": "0xdd35ca163071cc217952670b501a85e14e03ec16",
+    "currency1": "0xff0c532fdb8cd566ae169c1cb157ff2bdc83e105",
+    "tickSpacing": 60
+  },
+  "network": {
+    "chainId": 8453,
+    "name": "Base",
+    "testnet": false,
+    "rpcUrls": [
+      "https://base-rpc.publicnode.com",
+      "https://mainnet.base.org"
+    ],
+    "explorer": "https://basescan.org",
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [],
+    "uniswapV4": {
+      "poolManager": "0x498581ff718922c3f8e6a244956af099b2652b2b",
+      "universalRouter": "0x6ff5693b99212da76ad316178a184ab56d299b43",
+      "quoter": "0x0d5e0f971ed27fbff6c2837bf31316121532048d",
+      "stateView": "0xa3c0c9b65bad0b08107aa264b0f3db444b867a71",
+      "positionManager": "0x7c5f5a4bbd8fd63184577525326123b519429bdc",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    },
+    "pairToken": {
+      "address": "0xff0c532fdb8cd566ae169c1cb157ff2bdc83e105",
+      "symbol": "IMD",
+      "name": "Identity.md",
+      "decimals": 18
+    }
+  },
+  "walletAddChain": {
+    "chainId": "0x2105",
+    "chainName": "Base",
+    "rpcUrls": [
+      "https://base-rpc.publicnode.com",
+      "https://mainnet.base.org"
+    ],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://basescan.org"
+    ]
+  }
+}

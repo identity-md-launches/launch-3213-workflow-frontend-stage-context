@@ -1,0 +1,48 @@
+{
+  "network": {
+    "chainId": 8453,
+    "name": "Base",
+    "testnet": false,
+    "rpcUrls": [
+      "https://base-rpc.publicnode.com",
+      "https://mainnet.base.org"
+    ],
+    "explorer": "https://basescan.org",
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [],
+    "uniswapV4": {
+      "poolManager": "0x498581ff718922c3f8e6a244956af099b2652b2b",
+      "universalRouter": "0x6ff5693b99212da76ad316178a184ab56d299b43",
+      "quoter": "0x0d5e0f971ed27fbff6c2837bf31316121532048d",
+      "stateView": "0xa3c0c9b65bad0b08107aa264b0f3db444b867a71",
+      "positionManager": "0x7c5f5a4bbd8fd63184577525326123b519429bdc",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    },
+    "pairToken": {
+      "address": "0xff0c532fdb8cd566ae169c1cb157ff2bdc83e105",
+      "symbol": "IMD",
+      "name": "Identity.md",
+      "decimals": 18
+    }
+  },
+  "walletAddChain": {
+    "chainId": "0x2105",
+    "chainName": "Base",
+    "rpcUrls": [
+      "https://base-rpc.publicnode.com",
+      "https://mainnet.base.org"
+    ],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://basescan.org"
+    ]
+  }
+}

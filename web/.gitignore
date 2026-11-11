@@ -1,0 +1,10 @@
+# Path budget: this file affects only web/; generated dependencies and caches at any depth.
+**/node_modules/
+**/.cache/
+**/.vite/
+**/.vite-temp/
+**/coverage/
+**/playwright-report/
+**/test-results/
+**/*.tsbuildinfo
+**/*.log

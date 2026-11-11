@@ -1,0 +1,90 @@
+{
+  "chainId": 8453,
+  "poolKey": {
+    "fee": 12500,
+    "hooks": "0xb369c3e1ff33d064d493782d023e476938e52000",
+    "currency0": "0xdd35ca163071cc217952670b501a85e14e03ec16",
+    "currency1": "0xff0c532fdb8cd566ae169c1cb157ff2bdc83e105",
+    "tickSpacing": 60
+  },
+  "repoUrl": "https://github.com/identity-md-launches/launch-3206-workflow-contract-stage-context",
+  "version": 1,
+  "launchId": "92e0d9bf-b524-4d34-b10a-e7648a826978",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 12500,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0xff0c532fdb8cd566ae169c1cb157ff2bdc83e105"
+    },
+    "notes": "The Firm (NOTSTOCK) launch paired with IMD. LpDesk(token, operator = dev wallet 0x8ad18e99f4c8d8406f9ba8899cf308000518a981 as fixed by the brief, project wallet = 0x3c587eff6c96eacf7e3dcc2cff6416161386e48c, the fixed project wallet the brief names, written literally because it is a payout recipient with no privileged power) creates Burner in its constructor; its modules PriceGuard, LpGovernor, VenueV3 and VenueV4 are not deployed by the launch but afterwards by anyone through LpDesk.deployModule(kind, code) with code hashes fixed in LpDesk. FirmVault(project wallet = 0x3c587eff6c96eacf7e3dcc2cff6416161386e48c, LpDesk) receives the pool's 1% fee share once the project wallet calls the factory's setRequester(launchNumber, FirmVault); distribute(token) is open to anyone and buyback is restricted to LpDesk's operator. GenesisSplitter(LpDesk, dev wallet) split() sends 50/60 of its NOTSTOCK to LpDesk and 10/60 to the dev wallet once. No contract has an owner, pause, upgrade or mint. Not manifest fields, set in the launch request: poolBps 3000 and remainderTo = 0x3c587eff6c96eacf7e3dcc2cff6416161386e48c, which then transfers 600,000,000 NOTSTOCK to GenesisSplitter; the paying wallet must be the project wallet so it can call setRequester.",
+    "token": {
+      "name": "The Firm",
+      "symbol": "NOTSTOCK",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "LpDesk",
+        "constructorArgs": [
+          "$token",
+          "0x8ad18e99f4c8d8406f9ba8899cf308000518a981",
+          "0x3c587eff6c96eacf7e3dcc2cff6416161386e48c"
+        ]
+      },
+      {
+        "contract": "FirmVault",
+        "constructorArgs": [
+          "0x3c587eff6c96eacf7e3dcc2cff6416161386e48c",
+          "$contract:LpDesk"
+        ]
+      },
+      {
+        "contract": "GenesisSplitter",
+        "constructorArgs": [
+          "$contract:LpDesk",
+          "0x8ad18e99f4c8d8406f9ba8899cf308000518a981"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0x619fe4b2b2ebf4615175d1467e22369eda3ce2db2790123e1e75c7c6736a67e2",
+      "abiHash": "fc4fab013a5168c8b768eb9277ce85fdc9e5b2f94f8e2cd48f4dc0499e4c63d4",
+      "address": "0xdd35ca163071cc217952670b501a85e14e03ec16",
+      "blockNumber": 56133685,
+      "creationCodeHash": "c998bd4ebbbc763c521cf3cd4421396d3f099001d86b4026381434d562f0582a"
+    },
+    {
+      "name": "LpDesk",
+      "txHash": "0x619fe4b2b2ebf4615175d1467e22369eda3ce2db2790123e1e75c7c6736a67e2",
+      "abiHash": "6a50f69c427902274436c985c899f6235819b40e22757d65ad13d59ddd793fb6",
+      "address": "0xa104010518cc6cfb9296ebc05233435e58589803",
+      "blockNumber": 56133685,
+      "creationCodeHash": "a7590c84deea947fd5e5977b746c15eebf4b7078ad504de929733b5b649ffc7d"
+    },
+    {
+      "name": "FirmVault",
+      "txHash": "0x619fe4b2b2ebf4615175d1467e22369eda3ce2db2790123e1e75c7c6736a67e2",
+      "abiHash": "2d184eb57ff9ce3e11c3438f43fa624f27cdb20c0f6a99fb3cd372565f6cae1b",
+      "address": "0xd50cf8c1913e7d68aa6fd26a1721dcefd0bd8ad2",
+      "blockNumber": 56133685,
+      "creationCodeHash": "1cf812a3447d1db70588003e9e912d34b8f0ecf4184b464974238f4b2060f55f"
+    },
+    {
+      "name": "GenesisSplitter",
+      "txHash": "0x619fe4b2b2ebf4615175d1467e22369eda3ce2db2790123e1e75c7c6736a67e2",
+      "abiHash": "7598135806443913d9aa63683b750f8104101199ee62fc1641b55ec4d7ecdc87",
+      "address": "0xf907c6d66f35d47b11636a8f4c1664fc19233b52",
+      "blockNumber": 56133685,
+      "creationCodeHash": "d73bfd31b236c64baa321bd5c242ab099ae7486bda5cf18d842122b6acede6a8"
+    }
+  ],
+  "sourceCommit": "b43bed90f47fce914d8c1bca5c8ae86b00b1681e",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "4a17de00b27699c9775ac5acf9e6c7f8740afd8c709624d89ee72144c7f15022"
+}
